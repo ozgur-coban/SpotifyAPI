@@ -9,7 +9,7 @@ app=Flask(__name__)
 app.secret_key='123456'
 
 CLIENT_ID='888df5bddb1748eb9f00d4decd7cc353'
-CLIENT_SECRET='3c2c365906854355859d681ef7ea2a6e'
+CLIENT_SECRET=''
 REDIRECT_URI='http://192.168.1.2:5000/callback'
 
 AUTH_URL = 'https://accounts.spotify.com/authorize'
